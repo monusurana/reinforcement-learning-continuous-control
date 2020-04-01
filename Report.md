@@ -12,17 +12,10 @@ Implemented and trained DDPG algorithm for solving Reacher environment.
 
 ### DDPG 
 
-The implementation of dqn is in ```agents/ddpg_agent.py``` and the trained model can be found at ```models/checkpoint_dqn.pth```
+The implementation of dqn is in ```agents/ddpg_agent.py``` and the trained model can be found at ```models/checkpoint_actor_ddpg.pth``` and ```models/checkpoint_critic_ddpg.pth```
 
 #### Actor Architecture
 ```
-QNetwork(
-  (fc1): Linear(in_features=37, out_features=64, bias=True)
-  (bn1): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-  (fc2): Linear(in_features=64, out_features=64, bias=True)
-  (bn2): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-  (fc3): Linear(in_features=64, out_features=4, bias=True)
-)
 ```
 
 #### Critic Architecture
