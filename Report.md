@@ -14,6 +14,10 @@ Implemented and trained DDPG algorithm for solving Reacher environment.
 
 The implementation of dqn is in ```agents/ddpg_agent.py``` and the trained model can be found at ```models/checkpoint_actor_ddpg.pth``` and ```models/checkpoint_critic_ddpg.pth```
 
+It is inspired by the original paper and here's the snapshot of the algorithm from the paper:
+
+![DDPG Algorithm](resources/ddpg_algorithm.png)
+
 #### Actor Architecture
 ```
 Actor(
@@ -34,7 +38,7 @@ Critic(
 )
 ```
 
-These are the key pieces of the algorithm:
+These are other the key pieces of the algorithm:
 
 ### Experience Replay 
 
