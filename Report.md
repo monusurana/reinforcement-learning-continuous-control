@@ -16,11 +16,25 @@ The implementation of dqn is in ```agents/ddpg_agent.py``` and the trained model
 
 #### Actor Architecture
 ```
+Actor(
+  (fc1): Linear(in_features=33, out_features=128, bias=True)
+  (fc2): Linear(in_features=128, out_features=128, bias=True)
+  (fc3): Linear(in_features=128, out_features=4, bias=True)
+  (bn1): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+)
 ```
 
 #### Critic Architecture
+```
+Critic(
+  (fcs1): Linear(in_features=33, out_features=128, bias=True)
+  (bn1): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (fc2): Linear(in_features=132, out_features=128, bias=True)
+  (fc3): Linear(in_features=128, out_features=1, bias=True)
+)
+```
 
-These are the key pieces of the algorithm
+These are the key pieces of the algorithm:
 
 ### Experience Replay 
 
