@@ -80,7 +80,13 @@ Max number of steps in an episode = 10000
 
 ## Results
 
+We were able to achieve the score of 30 in 187 episodes
+
 <img src="resources/ddpg.png" width="280" height="200">
+
+### Observations 
+* The training behavior was done in 'Udacity Workspace' as it was really slow on may windows machine and even with 500 episodes I couldn't achieve the score of 30. Whereas in Workspace it was able to achieve in 187 episodes 
+* Batch Normalization and slowing the learning rate helped with faster training 
 
 ## Ideas for future work 
 - Tuning of hyperparameters for the network 
