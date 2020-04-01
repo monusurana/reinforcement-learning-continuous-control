@@ -1,10 +1,6 @@
 # Deep Reinforcement Learning Agent for Reacher App 
 
-## Trained Agent 
-
-Here's the gif showing the trained agent based on [DDPG Algorithm](https://github.com/monusurana/reinforcement-learning-navigation/blob/master/agents/ddpg_agent.py) trained on [Unity's](https://github.com/Unity-Technologies/ml-agents) Reacher environment. 
-
-![DDPG Trained Agent](resources/trained_agent_ddpg.gif)
+**NOTE:** I couldn't record the video of trained agents as it was trained in workspace 
 
 ## Implementation Details 
 
