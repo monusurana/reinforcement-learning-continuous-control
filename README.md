@@ -4,6 +4,8 @@
 
 # Project 2: Continuous Control
 
+**NOTE:** I trained it on Udacity workspace and uploaded the model and notebook here. 
+
 ### Introduction
 
 For this project, I worked on [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment (Version 1)
